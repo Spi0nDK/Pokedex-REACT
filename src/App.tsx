@@ -9,10 +9,10 @@ import { fetchFavoritesFromDb } from "./store/thunks/fetchFavoritesFromDb.ts";
 import {AppDispatch} from "./store/store.ts";
 
 function App() {
-    const dispatch = useDispatch<AppDispatch>();  // Typen for dispatch skal være AppDispatch
+    const dispatch = useDispatch<AppDispatch>();
 
     useEffect(() => {
-        dispatch(fetchFavoritesFromDb());  // Dispatcher thunk
+        dispatch(fetchFavoritesFromDb());
     }, [dispatch]);
 
     return (
