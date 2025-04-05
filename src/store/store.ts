@@ -1,8 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { setupListeners } from "@reduxjs/toolkit/query";
-
-import { pokemonApi } from './pokeApi';
-import favoritesReducer from './favoritesSlice';
+import { pokemonApi } from "./api";
+import favoritesReducer from "./slices/pokemonSlice";
 
 export const store = configureStore({
     reducer: {
@@ -13,6 +11,5 @@ export const store = configureStore({
         getDefaultMiddleware().concat(pokemonApi.middleware),
 });
 
-setupListeners(store.dispatch);
-
-export { useGetPokemonsQuery } from './pokeApi';
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;

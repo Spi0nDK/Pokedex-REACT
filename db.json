@@ -1,0 +1,18 @@
+{
+  "favorites": [
+    {
+      "id": "c19e",
+      "name": "ivysaur",
+      "dex": 2,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "types": [
+        {
+          "name": "grass"
+        },
+        {
+          "name": "poison"
+        }
+      ]
+    }
+  ]
+}

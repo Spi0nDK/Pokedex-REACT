@@ -1,11 +1,11 @@
-import Navbar from '../components/Navbar.tsx'
 import "./Favorite.css";
+import PokemonList from "../components/PokemonList.tsx";
 
 export default function Favorite() {
     return (
         <div>
-            <Navbar />
             <h1>Dine favorit Pokémon</h1>
+            <PokemonList />
         </div>
     );
 }

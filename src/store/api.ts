@@ -1,37 +1,37 @@
-const API_URL = 'https://pokeapi.co/api/v2/pokemon?limit=1025';
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { PokemonDetails } from '../types/interfaces';
 
-export const fetchPokemons = async () => {
-    try {
-        const response = await fetch(API_URL);
-        if (!response.ok) {
-            throw new Error('Failed to fetch Pokémon list');
-        }
-        const data = await response.json();
-
-        const detailedPokemons = await Promise.all(
-            data.results.map(async (pokemon: { url: string }) => {
-                const detailsResponse = await fetch(pokemon.url);
-                if (!detailsResponse.ok) {
-                    throw new Error(`Failed to fetch details for ${pokemon.url}`);
-                }
-                const details = await detailsResponse.json();
-
+const pokemonApi = createApi({
+    reducerPath: 'pokemon',
+    baseQuery: fetchBaseQuery({
+        baseUrl: 'https://pokeapi.co/api/v2/'
+    }),
+    endpoints: (builder) => ({
+        fetchPokemons: builder.query({
+            query: () => {
                 return {
-                    id: details.id,
-                    name: details.name,
-                    image: details.sprites.front_default,
-                    stats: details.stats.map((stat: any) => ({
-                        name: stat.stat.name,
-                        value: stat.base_stat,
-                    })),
-                    types: details.types.map((type: any) => type.type.name),
+                    url: 'pokemon',
+                    params: { limit: 20 },
+                    method: 'GET'
                 };
-            })
-        );
+            }
+        }),
+        fetchPokemonDetails: builder.query<PokemonDetails, string>({
+            query: (pokemonUrl: string) => ({
+                url: pokemonUrl.replace('https://pokeapi.co/api/v2/', ''),
+                method: 'GET'
+            }),
+            transformResponse: (response: any): PokemonDetails => {
+                return {
+                    name: response.name,
+                    dex: response.id,
+                    types: response.types.map((type: any) => ({ name: type.type.name })),
+                    sprite: response.sprites.front_default,
+                };
+            }
+        })
+    })
+});
 
-        return detailedPokemons;
-    } catch (error) {
-        console.error('Error fetching Pokémon:', error);
-        return [];
-    }
-};
+export const { useFetchPokemonsQuery, useFetchPokemonDetailsQuery } = pokemonApi;
+export { pokemonApi };
