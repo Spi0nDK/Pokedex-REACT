@@ -7,7 +7,7 @@ const pokemonApi = createApi({
         baseUrl: 'https://pokeapi.co/api/v2/'
     }),
     endpoints: (builder) => ({
-        fetchPokemons: builder.query({
+        fetchPokemons: builder.query<any, void>({
             query: () => {
                 return {
                     url: 'pokemon',

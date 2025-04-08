@@ -1,6 +1,6 @@
 import { useFetchPokemonDetailsQuery } from "../store/api.ts";
 import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../store/store.ts";
+import {AppDispatch, RootState} from "../store/store.ts";
 import {addFavoriteToDb} from "../store/thunks/addFavoritesToDb.ts";
 import {removeFavoriteFromDb} from "../store/thunks/removeFavoritesFromDb.ts";
 
@@ -36,7 +36,7 @@ const properCase = (text: string) => {
 
 const PokemonDetails = ({ pokemonUrl }: PokemonDetailsProps) => {
     const { data: details, isLoading } = useFetchPokemonDetailsQuery(pokemonUrl);
-    const dispatch = useDispatch();
+    const dispatch = useDispatch<AppDispatch>();
     const favorites = useSelector((state: RootState) => state.favorites.data);
 
     if (isLoading) return <div>Loading {pokemonUrl}...</div>;
