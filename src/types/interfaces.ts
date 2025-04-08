@@ -7,4 +7,5 @@ export interface PokemonDetails {
     dex: number;
     types: PokemonType[];
     sprite: string;
+    shiny: string;
 }

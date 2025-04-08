@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { fetchFavoritesFromDb } from "./store/thunks/fetchFavoritesFromDb.ts";
-import {AppDispatch} from "./store/store.ts";
+import { AppDispatch } from "./store/store.ts";
+import Pokemon from "./components/Pokemon";
 
 function App() {
     const dispatch = useDispatch<AppDispatch>();
@@ -21,6 +22,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/favorite" element={<Favorite />} />
+                <Route path="/pokemon/:id" element={<Pokemon />}/>
             </Routes>
         </BrowserRouter>
     );

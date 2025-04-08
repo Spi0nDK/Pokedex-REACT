@@ -11,7 +11,7 @@ const pokemonApi = createApi({
             query: () => {
                 return {
                     url: 'pokemon',
-                    params: { limit: 20 },
+                    params: { limit: 1025 },
                     method: 'GET'
                 };
             }
@@ -27,6 +27,7 @@ const pokemonApi = createApi({
                     dex: response.id,
                     types: response.types.map((type: any) => ({ name: type.type.name })),
                     sprite: response.sprites.front_default,
+                    shiny: response.sprites.front_shiny,
                 };
             }
         })

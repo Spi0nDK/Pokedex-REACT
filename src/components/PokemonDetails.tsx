@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {AppDispatch, RootState} from "../store/store.ts";
 import {addFavoriteToDb} from "../store/thunks/addFavoritesToDb.ts";
 import {removeFavoriteFromDb} from "../store/thunks/removeFavoritesFromDb.ts";
-
+import {properCase} from "../utils/stringUtils.ts";
 
 interface PokemonDetailsProps {
     pokemonUrl: string;
@@ -30,10 +30,6 @@ const typeColors: { [key: string]: string } = {
     flying: '#A890F0',
 };
 
-const properCase = (text: string) => {
-    return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
-};
-
 const PokemonDetails = ({ pokemonUrl }: PokemonDetailsProps) => {
     const { data: details, isLoading } = useFetchPokemonDetailsQuery(pokemonUrl);
     const dispatch = useDispatch<AppDispatch>();
@@ -53,6 +49,7 @@ const PokemonDetails = ({ pokemonUrl }: PokemonDetailsProps) => {
                 dex: details.dex,
                 sprite: details.sprite,
                 types: details.types,
+                shiny: details.shiny,
             }));
         }
     };
