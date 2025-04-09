@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import { fetchFavoritesFromDb } from "./store/thunks/fetchFavoritesFromDb.ts";
 import { AppDispatch } from "./store/store.ts";
 import Pokemon from "./components/Pokemon";
+import Footer from "./components/Footer.tsx";
 
 function App() {
     const dispatch = useDispatch<AppDispatch>();
@@ -24,6 +25,7 @@ function App() {
                 <Route path="/favorite" element={<Favorite />} />
                 <Route path="/pokemon/:id" element={<Pokemon />}/>
             </Routes>
+            <Footer />
         </BrowserRouter>
     );
 }
