@@ -1,338 +1,7 @@
 {
   "favorites": [
     {
-      "id": "05af",
-      "name": "venusaur",
-      "dex": 3,
-      "types": [
-        {
-          "name": "grass"
-        },
-        {
-          "name": "poison"
-        }
-      ],
-      "stats": [
-        {
-          "name": "hp",
-          "value": 80
-        },
-        {
-          "name": "attack",
-          "value": 82
-        },
-        {
-          "name": "defense",
-          "value": 83
-        },
-        {
-          "name": "special-attack",
-          "value": 100
-        },
-        {
-          "name": "special-defense",
-          "value": 100
-        },
-        {
-          "name": "speed",
-          "value": 80
-        }
-      ],
-      "moves": [
-        {
-          "name": "swords-dance"
-        },
-        {
-          "name": "cut"
-        },
-        {
-          "name": "bind"
-        },
-        {
-          "name": "vine-whip"
-        },
-        {
-          "name": "headbutt"
-        },
-        {
-          "name": "tackle"
-        },
-        {
-          "name": "body-slam"
-        },
-        {
-          "name": "take-down"
-        },
-        {
-          "name": "double-edge"
-        },
-        {
-          "name": "growl"
-        },
-        {
-          "name": "roar"
-        },
-        {
-          "name": "hyper-beam"
-        },
-        {
-          "name": "strength"
-        },
-        {
-          "name": "mega-drain"
-        },
-        {
-          "name": "leech-seed"
-        },
-        {
-          "name": "growth"
-        },
-        {
-          "name": "razor-leaf"
-        },
-        {
-          "name": "solar-beam"
-        },
-        {
-          "name": "poison-powder"
-        },
-        {
-          "name": "sleep-powder"
-        },
-        {
-          "name": "petal-dance"
-        },
-        {
-          "name": "string-shot"
-        },
-        {
-          "name": "earthquake"
-        },
-        {
-          "name": "toxic"
-        },
-        {
-          "name": "rage"
-        },
-        {
-          "name": "mimic"
-        },
-        {
-          "name": "double-team"
-        },
-        {
-          "name": "defense-curl"
-        },
-        {
-          "name": "light-screen"
-        },
-        {
-          "name": "reflect"
-        },
-        {
-          "name": "bide"
-        },
-        {
-          "name": "amnesia"
-        },
-        {
-          "name": "flash"
-        },
-        {
-          "name": "rest"
-        },
-        {
-          "name": "substitute"
-        },
-        {
-          "name": "snore"
-        },
-        {
-          "name": "curse"
-        },
-        {
-          "name": "protect"
-        },
-        {
-          "name": "scary-face"
-        },
-        {
-          "name": "sludge-bomb"
-        },
-        {
-          "name": "mud-slap"
-        },
-        {
-          "name": "outrage"
-        },
-        {
-          "name": "giga-drain"
-        },
-        {
-          "name": "endure"
-        },
-        {
-          "name": "charm"
-        },
-        {
-          "name": "false-swipe"
-        },
-        {
-          "name": "swagger"
-        },
-        {
-          "name": "fury-cutter"
-        },
-        {
-          "name": "attract"
-        },
-        {
-          "name": "sleep-talk"
-        },
-        {
-          "name": "return"
-        },
-        {
-          "name": "frustration"
-        },
-        {
-          "name": "safeguard"
-        },
-        {
-          "name": "sweet-scent"
-        },
-        {
-          "name": "synthesis"
-        },
-        {
-          "name": "hidden-power"
-        },
-        {
-          "name": "sunny-day"
-        },
-        {
-          "name": "rock-smash"
-        },
-        {
-          "name": "facade"
-        },
-        {
-          "name": "nature-power"
-        },
-        {
-          "name": "helping-hand"
-        },
-        {
-          "name": "ingrain"
-        },
-        {
-          "name": "knock-off"
-        },
-        {
-          "name": "secret-power"
-        },
-        {
-          "name": "weather-ball"
-        },
-        {
-          "name": "bullet-seed"
-        },
-        {
-          "name": "block"
-        },
-        {
-          "name": "frenzy-plant"
-        },
-        {
-          "name": "magical-leaf"
-        },
-        {
-          "name": "natural-gift"
-        },
-        {
-          "name": "worry-seed"
-        },
-        {
-          "name": "poison-jab"
-        },
-        {
-          "name": "seed-bomb"
-        },
-        {
-          "name": "energy-ball"
-        },
-        {
-          "name": "earth-power"
-        },
-        {
-          "name": "giga-impact"
-        },
-        {
-          "name": "rock-climb"
-        },
-        {
-          "name": "leaf-storm"
-        },
-        {
-          "name": "power-whip"
-        },
-        {
-          "name": "captivate"
-        },
-        {
-          "name": "grass-knot"
-        },
-        {
-          "name": "venoshock"
-        },
-        {
-          "name": "acid-spray"
-        },
-        {
-          "name": "round"
-        },
-        {
-          "name": "echoed-voice"
-        },
-        {
-          "name": "grass-pledge"
-        },
-        {
-          "name": "bulldoze"
-        },
-        {
-          "name": "work-up"
-        },
-        {
-          "name": "petal-blizzard"
-        },
-        {
-          "name": "grassy-terrain"
-        },
-        {
-          "name": "confide"
-        },
-        {
-          "name": "stomping-tantrum"
-        },
-        {
-          "name": "grassy-glide"
-        },
-        {
-          "name": "terrain-pulse"
-        },
-        {
-          "name": "tera-blast"
-        },
-        {
-          "name": "trailblaze"
-        }
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
-      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/3.png"
-    },
-    {
-      "id": "4310",
+      "id": "6d32",
       "name": "charmander",
       "dex": 4,
       "types": [
@@ -687,38 +356,38 @@
       "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/4.png"
     },
     {
-      "id": "e8e5",
-      "name": "charmeleon",
-      "dex": 5,
+      "id": "759d",
+      "name": "squirtle",
+      "dex": 7,
       "types": [
         {
-          "name": "fire"
+          "name": "water"
         }
       ],
       "stats": [
         {
           "name": "hp",
-          "value": 58
+          "value": 44
         },
         {
           "name": "attack",
-          "value": 64
+          "value": 48
         },
         {
           "name": "defense",
-          "value": 58
-        },
-        {
-          "name": "special-attack",
-          "value": 80
-        },
-        {
-          "name": "special-defense",
           "value": 65
         },
         {
+          "name": "special-attack",
+          "value": 50
+        },
+        {
+          "name": "special-defense",
+          "value": 64
+        },
+        {
           "name": "speed",
-          "value": 80
+          "value": 43
         }
       ],
       "moves": [
@@ -726,25 +395,16 @@
           "name": "mega-punch"
         },
         {
-          "name": "fire-punch"
-        },
-        {
-          "name": "thunder-punch"
-        },
-        {
-          "name": "scratch"
-        },
-        {
-          "name": "swords-dance"
-        },
-        {
-          "name": "cut"
+          "name": "ice-punch"
         },
         {
           "name": "mega-kick"
         },
         {
           "name": "headbutt"
+        },
+        {
+          "name": "tackle"
         },
         {
           "name": "body-slam"
@@ -756,22 +416,31 @@
           "name": "double-edge"
         },
         {
-          "name": "leer"
+          "name": "tail-whip"
         },
         {
           "name": "bite"
         },
         {
-          "name": "growl"
+          "name": "mist"
         },
         {
-          "name": "roar"
+          "name": "water-gun"
         },
         {
-          "name": "ember"
+          "name": "hydro-pump"
         },
         {
-          "name": "flamethrower"
+          "name": "surf"
+        },
+        {
+          "name": "ice-beam"
+        },
+        {
+          "name": "blizzard"
+        },
+        {
+          "name": "bubble-beam"
         },
         {
           "name": "submission"
@@ -786,16 +455,13 @@
           "name": "strength"
         },
         {
-          "name": "dragon-rage"
-        },
-        {
-          "name": "fire-spin"
-        },
-        {
           "name": "dig"
         },
         {
           "name": "toxic"
+        },
+        {
+          "name": "confusion"
         },
         {
           "name": "rage"
@@ -807,10 +473,13 @@
           "name": "double-team"
         },
         {
-          "name": "smokescreen"
+          "name": "withdraw"
         },
         {
           "name": "defense-curl"
+        },
+        {
+          "name": "haze"
         },
         {
           "name": "reflect"
@@ -819,25 +488,19 @@
           "name": "bide"
         },
         {
-          "name": "fire-blast"
-        },
-        {
-          "name": "swift"
+          "name": "waterfall"
         },
         {
           "name": "skull-bash"
         },
         {
-          "name": "fury-swipes"
+          "name": "bubble"
         },
         {
           "name": "rest"
         },
         {
           "name": "rock-slide"
-        },
-        {
-          "name": "slash"
         },
         {
           "name": "substitute"
@@ -849,16 +512,19 @@
           "name": "curse"
         },
         {
+          "name": "flail"
+        },
+        {
           "name": "protect"
         },
         {
-          "name": "scary-face"
-        },
-        {
-          "name": "belly-drum"
-        },
-        {
           "name": "mud-slap"
+        },
+        {
+          "name": "foresight"
+        },
+        {
+          "name": "icy-wind"
         },
         {
           "name": "outrage"
@@ -867,13 +533,13 @@
           "name": "endure"
         },
         {
+          "name": "rollout"
+        },
+        {
           "name": "false-swipe"
         },
         {
           "name": "swagger"
-        },
-        {
-          "name": "fury-cutter"
         },
         {
           "name": "attract"
@@ -891,37 +557,31 @@
           "name": "dynamic-punch"
         },
         {
-          "name": "dragon-breath"
+          "name": "rapid-spin"
         },
         {
           "name": "iron-tail"
         },
         {
-          "name": "metal-claw"
-        },
-        {
           "name": "hidden-power"
         },
         {
-          "name": "sunny-day"
+          "name": "rain-dance"
         },
         {
-          "name": "crunch"
-        },
-        {
-          "name": "ancient-power"
+          "name": "mirror-coat"
         },
         {
           "name": "rock-smash"
         },
         {
-          "name": "beat-up"
+          "name": "whirlpool"
         },
         {
-          "name": "heat-wave"
+          "name": "fake-out"
         },
         {
-          "name": "will-o-wisp"
+          "name": "hail"
         },
         {
           "name": "facade"
@@ -930,31 +590,55 @@
           "name": "focus-punch"
         },
         {
+          "name": "follow-me"
+        },
+        {
           "name": "helping-hand"
         },
         {
           "name": "brick-break"
         },
         {
+          "name": "yawn"
+        },
+        {
+          "name": "refresh"
+        },
+        {
           "name": "secret-power"
+        },
+        {
+          "name": "dive"
+        },
+        {
+          "name": "mud-sport"
         },
         {
           "name": "weather-ball"
         },
         {
-          "name": "overheat"
-        },
-        {
           "name": "rock-tomb"
         },
         {
-          "name": "aerial-ace"
+          "name": "water-spout"
         },
         {
-          "name": "dragon-claw"
+          "name": "muddy-water"
         },
         {
-          "name": "dragon-dance"
+          "name": "iron-defense"
+        },
+        {
+          "name": "mud-shot"
+        },
+        {
+          "name": "water-pulse"
+        },
+        {
+          "name": "gyro-ball"
+        },
+        {
+          "name": "brine"
         },
         {
           "name": "natural-gift"
@@ -963,55 +647,37 @@
           "name": "fling"
         },
         {
-          "name": "flare-blitz"
+          "name": "aqua-ring"
+        },
+        {
+          "name": "aura-sphere"
+        },
+        {
+          "name": "aqua-tail"
         },
         {
           "name": "dragon-pulse"
         },
         {
-          "name": "dragon-rush"
-        },
-        {
-          "name": "focus-blast"
-        },
-        {
-          "name": "shadow-claw"
-        },
-        {
-          "name": "fire-fang"
+          "name": "zen-headbutt"
         },
         {
           "name": "captivate"
         },
         {
-          "name": "hone-claws"
-        },
-        {
-          "name": "flame-burst"
-        },
-        {
-          "name": "flame-charge"
+          "name": "aqua-jet"
         },
         {
           "name": "round"
         },
         {
-          "name": "echoed-voice"
+          "name": "scald"
         },
         {
-          "name": "incinerate"
+          "name": "shell-smash"
         },
         {
-          "name": "acrobatics"
-        },
-        {
-          "name": "inferno"
-        },
-        {
-          "name": "fire-pledge"
-        },
-        {
-          "name": "dragon-tail"
+          "name": "water-pledge"
         },
         {
           "name": "work-up"
@@ -1023,72 +689,29 @@
           "name": "power-up-punch"
         },
         {
-          "name": "breaking-swipe"
+          "name": "liquidation"
+        },
+        {
+          "name": "life-dew"
+        },
+        {
+          "name": "flip-turn"
+        },
+        {
+          "name": "wave-crash"
         },
         {
           "name": "tera-blast"
         },
         {
-          "name": "temper-flare"
+          "name": "ice-spinner"
+        },
+        {
+          "name": "chilling-water"
         }
       ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
-      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png"
-    },
-    {
-      "id": "9ac4",
-      "name": "caterpie",
-      "dex": 10,
-      "types": [
-        {
-          "name": "bug"
-        }
-      ],
-      "stats": [
-        {
-          "name": "hp",
-          "value": 45
-        },
-        {
-          "name": "attack",
-          "value": 30
-        },
-        {
-          "name": "defense",
-          "value": 35
-        },
-        {
-          "name": "special-attack",
-          "value": 20
-        },
-        {
-          "name": "special-defense",
-          "value": 20
-        },
-        {
-          "name": "speed",
-          "value": 45
-        }
-      ],
-      "moves": [
-        {
-          "name": "tackle"
-        },
-        {
-          "name": "string-shot"
-        },
-        {
-          "name": "snore"
-        },
-        {
-          "name": "bug-bite"
-        },
-        {
-          "name": "electroweb"
-        }
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
-      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10.png"
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/7.png"
     }
   ]
 }
