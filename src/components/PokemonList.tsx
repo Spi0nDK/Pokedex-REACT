@@ -4,6 +4,7 @@ import PokemonDetails from "./PokemonDetails.tsx";
 import {useLocation} from "react-router";
 import {useSelector} from "react-redux";
 import {RootState} from "../store/store.ts";
+import Footer from "./Footer.tsx";
 
 const PokemonList = () => {
     const location = useLocation();
@@ -24,10 +25,13 @@ const PokemonList = () => {
     }
 
     return (
-        <div className="pokemons">
-            {pokemonsToDisplay?.map((pokemon: { name: string; url: string }) => (
-                <PokemonDetails key={pokemon.name} pokemonUrl={pokemon.url} />
-            ))}
+        <div className="page-container">
+            <div className="pokemons">
+                {pokemonsToDisplay?.map((pokemon: { name: string; url: string }) => (
+                    <PokemonDetails key={pokemon.name} pokemonUrl={pokemon.url} />
+                ))}
+            </div>
+            <Footer />
         </div>
     );
 };
